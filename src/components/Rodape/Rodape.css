@@ -26,3 +26,10 @@
     color: #fff;
     font-weight: 500;
 }
+
+@media (max-width: 600px) {
+    .footer p {
+        position: absolute;
+        margin-top: 150px;
+    }
+}

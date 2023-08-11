@@ -1,8 +1,7 @@
-
 .formulario {
     display: flex;
     justify-content: center;
-    margin: 80px  0;
+    margin: 80px 0;
 
 }
 
@@ -12,4 +11,16 @@
     border-radius: 20px;
     padding: 36px 64px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.09);
+}
+
+
+@media screen and (max-width: 600px) {
+    .formulario form {
+        background: none;
+        box-shadow: none;
+    }
+
+    .formulario {
+        margin: 0;
+    }
 }
