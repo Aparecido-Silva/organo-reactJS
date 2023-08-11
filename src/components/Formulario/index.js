@@ -6,8 +6,8 @@ import './Formulario.css'
 
 const Formulario = (props) => {
 
-    const [cargo, setCargo] = useState('')
     const [nome, setNome] = useState('')
+    const [cargo, setCargo] = useState('')
     const [image, setImage] = useState('')
     const [time, setTime] = useState('')
 
@@ -19,6 +19,11 @@ const Formulario = (props) => {
             image,
             time
         })
+        setNome('')
+        setCargo('')
+        setImage('')
+        setTime('')
+        
     }
 
     return (
